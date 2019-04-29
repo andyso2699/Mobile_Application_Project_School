@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".Main">
+
+    <EditText
+        android:id="@+id/CurrentDate"
+        android:layout_width="0dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/round_corner_draw"
+        android:ems="10"
+        android:enabled="false"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/e_button"
+        app:layout_constraintEnd_toStartOf="@+id/DigitalClock"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <DigitalClock
+        android:id="@+id/DigitalClock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="right"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/round_corner_dc_draw"
+        android:focusableInTouchMode="false"
+        android:fontFamily="sans-serif-thin"
+        android:includeFontPadding="false"
+        android:padding="20dp"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="44sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/e_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/CurrentDate"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <ImageButton
+        android:id="@+id/e_button"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/round_corner_draw"
+        android:onClick="Emergency"
+        android:padding="15dp"
+        android:src="@drawable/icon_e"
+        app:layout_constraintBottom_toTopOf="@+id/contact_button"
+        app:layout_constraintEnd_toStartOf="@+id/fa_button"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DigitalClock" />
+
+
+    <ImageButton
+        android:id="@+id/fa_button"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/round_corner_draw"
+        android:baselineAlignBottom="false"
+        android:onClick="FirstAid"
+        android:padding="15dp"
+        android:src="@drawable/icon_fa"
+        app:layout_constraintBottom_toTopOf="@+id/gps_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/e_button"
+        app:layout_constraintTop_toBottomOf="@+id/DigitalClock" />
+
+
+    <ImageButton
+        android:id="@+id/gps_button"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:layout_gravity="right"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/round_corner_draw"
+        android:baselineAlignBottom="false"
+        android:onClick="GPSLocation"
+        android:padding="15dp"
+        android:src="@drawable/icon_gps"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/contact_button"
+        app:layout_constraintTop_toBottomOf="@+id/fa_button" />
+
+    <ImageButton
+        android:id="@+id/contact_button"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/round_corner_draw"
+        android:onClick="ContactBook"
+        android:padding="15dp"
+        android:src="@drawable/icon_contact"
+        app:layout_constraintEnd_toStartOf="@+id/gps_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/e_button" />
+
+    <Button
+        android:id="@+id/about_us_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/round_corner_draw"
+        android:onClick="AboutUs"
+        android:padding="15dp"
+        android:text="關於我們"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="44sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contact_button"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+</android.support.constraint.ConstraintLayout>

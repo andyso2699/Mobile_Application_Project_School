@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">急救耆兵</string>
+    <string name="CurrentDate"></string>
+    <string name="cancel">取消</string>
+    <string name="quit">離開</string>
+    <string name="thankyou">繼續</string>
+</resources>

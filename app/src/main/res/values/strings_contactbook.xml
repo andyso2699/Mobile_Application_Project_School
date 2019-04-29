@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="contact">
+        <item>社會福利署\n護老者支援中心 \n電話號碼: 25585587</item>
+        <item>香港明愛\n護老者支援中心\n電話號碼: 27087700</item>
+        <item>聖雅各福群會老人痴呆症\n家居護老者支援服務\n電話號碼: 28354319</item>
+        <item>香港聖公會福利協會護老新天地\n護老者支援服務\n電話號碼: 23523082</item>
+        <item>香港仔街坊福利會\n護老者服務\n電話號碼: 25550851</item>
+        <item>聖雅各福群會\n護老者資源中心 \n電話號碼: 28051250</item>
+        <item>東華三院\n東華關懷熱線\n電話號碼: 25480010</item>
+        <item>聖雅各福群會\n自己人號碼\n電話號碼: 25733599</item>
+        <item>耆康會懷熙葵涌社區老人服務中心\n護老專線 \n電話號碼: 24214836</item>
+    </string-array>
+</resources>

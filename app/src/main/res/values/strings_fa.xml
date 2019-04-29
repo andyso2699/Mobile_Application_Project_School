@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fa_cat">
+        <item>流鼻血</item>
+        <item>灼傷</item>
+        <item>骨折</item>
+        <item>頭部創傷</item>
+    </string-array>
+
+    <string-array name="fa_cat_pics">
+        <item>@drawable/icon_fa_nosebleed</item>
+        <item>@drawable/icon_fa_burn</item>
+        <item>@drawable/icon_fa_fracture</item>
+        <item>@drawable/icon_fa_headhurt</item>
+    </string-array>
+
+    <string name="fa_nosebleed">
+        - 讓傷者坐下，頭稍向前傾\n
+        - 用口呼吸，以手稍用力住鼻部軟骨\n
+        - 若小量流血，十分鐘後放鬆壓力，若仍然出血，再壓十分鐘\n
+        - 若大量流血或三十分鐘後仍不止血，應立刻送院診治
+    </string>
+
+    <string-array name="fa_nosebleed_pics">
+        <item>@drawable/fa_nosebleed_1</item>
+        <item>@drawable/fa_nosebleed_2</item>
+        <item>@drawable/fa_nosebleed_3</item>
+        <item>@drawable/fa_nosebleed_4</item>
+    </string-array>
+
+    <string-array name="fa_burn_pics">
+        <item>@drawable/fa_burn_1</item>
+        <item>@drawable/fa_burn_2</item>
+        <item>@drawable/fa_burn_3</item>
+        <item>@drawable/fa_burn_4</item>
+        <item>@drawable/fa_burn_5</item>
+    </string-array>
+
+    <string name="fa_burn">
+        - 將傷處放在自來水下或浸入冷水中約十分鐘\n
+        - 在傷處腫脹之前，輕輕除下傷處附近的飾物及過緊衣物\n
+        - 不要弄破水泡，以免傷口發炎\n
+        - 不要使用黏性敷料，如膠布，不要搽上藥油、食油\n
+        - 用清潔無絨毛的布料敷裹傷處\n
+        - 送院治理
+    </string>
+
+    <string name="fa_fracture">
+        - 觀察骨折部位 : 無法正常活動，疼痛會隨活動增加，傷處腫起\n
+        - 若有休克或呼吸受阻徵狀，應先處理\n
+        - 除非處境對生命構成危險，否則不應隨便移動傷者\n
+        - 立即送院治理
+    </string>
+
+    <string name="fa_headhurt">
+        - 患者有明顯的嚴重受傷時，應先讓傷者側臥，並將環繞頸部胸部衣物鬆開。\n
+        - 注意患者是否呼吸通順，必要時施以人工呼吸或心肺復甦術。\n
+        - 若是患者的頸部也有受傷的可能時，應儘量避免移動傷者，若有必要，請將頭頸及身軀保持於同一平面移動。\n
+        - 儘速呼叫救護車送醫急救。\n
+        - 對患者應持續觀察至少四十八小時，以防腦部內部受到傷害而不知。\n
+        - 觀察重點為患者是否有持續頭痛、頭暈及嘔吐、頸痛及僵硬、部份身體出現遲鈍、癱瘓或抽筋的現象。
+    </string>
+
+</resources>
